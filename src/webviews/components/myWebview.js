@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { RequestContext } from '@botonic/react'
 
 export default class MyWebview extends React.Component {
@@ -23,7 +23,7 @@ export default class MyWebview extends React.Component {
     Here we want to explicitly emit a message after closing a webview.
     You can also call this method with empty arguments like: this.context.closeWebview()
     but be aware that no data will be passed back to the bot.
-    */
+    
     this.context.closeWebview({
       payload: 'closed_webview'
     })
@@ -42,3 +42,4 @@ export default class MyWebview extends React.Component {
     )
   }
 }
+*/
